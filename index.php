@@ -39,23 +39,23 @@
                 <form action="thanks_page.php" id="frmSendMail" class="row" method="post">
                     <div class="col-md-6 mt-4">
                         <label for="name" class="form-label text-label fw-bold d-block fs-6">Your Name</label>
-                        <input type="text" id="name" name="name" class="border-0 border-bottom pb-3 w-100" value="Dexter Morgan" placeholder="Ex: Dexter Morgan">
+                        <input type="text" id="name" name="name" class="border-0 border-bottom pb-3 w-100" required value="Dexter Morgan" placeholder="Ex: Dexter Morgan">
                     </div>
                     <div class="col-md-6 mt-4">
                         <label for="email" class="form-label text-label fw-bold d-block fs-6">Email Address</label>
-                        <input type="email" id="email" name="email" class="border-0 border-bottom pb-3 w-100" value="dextermorgan@hisoffice.com" placeholder="Ex: dextermorgan@hisoffice.com">
+                        <input type="email" id="email" name="email" class="border-0 border-bottom pb-3 w-100" required value="dextermorgan@hisoffice.com" placeholder="Ex: dextermorgan@hisoffice.com">
                     </div>
                     <div class="col-md-6 mt-4">
                         <label for="phone" class="form-label text-label fw-bold d-block fs-6">Phone</label>
-                        <input type="text" id="phone" name="phone" class="border-0 border-bottom pb-3 w-100" value="(800) 800 - 900 - 100" placeholder="Ex: (800) 800 - 900 - 100">
+                        <input type="text" id="phone" name="phone" class="border-0 border-bottom pb-3 w-100" required value="(800) 800 - 900 - 100" placeholder="Ex: (800) 800 - 900 - 100">
                     </div>
                     <div class="col-md-6 mt-4">
                         <label for="conpany" class="form-label text-label fw-bold d-block fs-6">Conpany</label>
-                        <input type="text" id="conpany" name="conpany" class="border-0 border-bottom pb-3 w-100" value="Morgan & Meat Enterprises" placeholder="Ex: Morgan & Meat Enterprises">
+                        <input type="text" id="conpany" name="conpany" class="border-0 border-bottom pb-3 w-100" required value="Morgan & Meat Enterprises" placeholder="Ex: Morgan & Meat Enterprises">
                     </div>
                     <div class="col-md-12 mt-4">
                         <label for="message" class="form-label text-label fw-bold d-block fs-6">Message</label>
-                        <input type="text" id="message" name="message" class="border-0 border-bottom pb-3 w-100" value="Hi, do you have a moment to talk abo..!" placeholder="Ex: Hi, do you have a moment to talk abo..!">
+                        <input type="text" id="message" name="message" class="border-0 border-bottom pb-3 w-100" required value="Hi, do you have a moment to talk abo..!" placeholder="Ex: Hi, do you have a moment to talk abo..!">
                     </div>
 
                     <div class="col mt-4 d-flex justify-content-end">
