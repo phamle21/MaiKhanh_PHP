@@ -2,6 +2,21 @@
 
 if (!isset($_POST['submitSendMail'])) {
     header('Location: ./');
+    exit;
+}
+
+if (
+    !isset($_POST['name']) || trim($_POST['name']) == ''
+    || !isset($_POST['email']) || trim($_POST['email']) == ''
+    || !isset($_POST['phone']) || trim($_POST['phone']) == ''
+    || !isset($_POST['conpany']) || trim($_POST['conpany']) == ''
+    || !isset($_POST['message']) || trim($_POST['message']) == ''
+) {
+
+    setcookie('MKnotify-false', 'Ooops, something went wrong.', time() + 3, '/');
+
+    header('Location: ./');
+    exit;
 }
 
 $name = $_POST['name'];
